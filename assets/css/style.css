@@ -26,7 +26,7 @@ html {
 }
 
 .row h2 {
-  margin-top: 150px
+  margin-top: 150px;
 }
 /*------------------------------------------------*/
 
@@ -109,6 +109,37 @@ h2:after {
   margin-bottom: 10px;
 }
 
+.icon-small {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color: #e67e22;
+  font-size: 120%;
+  margin-right: 10px;
+
+  /* secrets to align text and icons */
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+
+/******** LINKS ***********/
+
+a:link,
+a:visited {
+  color: #e67e22;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #e67e22;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
+}
+
 /******** BUTTONS **********/
 
 .btn:link,
@@ -122,7 +153,7 @@ h2:after {
 }
 
 .btn-full:link,
-.btn-bull:visited {
+.btn-full:visited {
   background-color: #e67e22;
   border: 1px solid #e67e22;
   color: #fff;
@@ -265,7 +296,7 @@ header {
 /*------------------------------------------------*/
 
 .section-steps {
-  background-color: #f4f4f4
+  background-color: #f4f4f4;
 }
 
 .steps-box:first-child {
@@ -277,7 +308,6 @@ header {
 .steps-box:last-child {
   padding-left: 3%;
   margin-top: 70px;
-
 }
 
 .app-screen {
@@ -285,13 +315,11 @@ header {
 }
 
 .works-step {
-  margin-bottom: 50px
+  margin-bottom: 50px;
 }
 
-.works-step:last-of-type{
-
+.works-step:last-of-type {
   margin-bottom: 80px;
-
 }
 
 .works-step div {
@@ -304,13 +332,30 @@ header {
   text-align: center;
   padding: 5px;
   float: left;
-  margin-right: 25px
+  margin-right: 25px;
 }
 
-
+.btn-app:link,
+.btn-app:visited {
+  border: 0;
+}
 
 .btn-app img {
   height: 50px;
   width: auto;
   margin-right: 10px;
+}
+
+/* ------------------------- */
+/* CITIES */
+/* ------------------------- */
+
+.box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.city-feature {
+  margin-bottom: 5px;
 }
